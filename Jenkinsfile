@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "varungovidarajan/simple-webapp"   // Docker Hub repo
+        DOCKER_IMAGE = "varungovindarajan/simple-webapp"   // Docker Hub repo
         CONTAINER_NAME = "webapp-container"
     }
 
